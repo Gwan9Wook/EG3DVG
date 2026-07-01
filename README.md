@@ -107,9 +107,9 @@ ScanNetv2
 
 ## 3. Models
 
-|   Dataset/Model   | REC mAP@0.25 | REC mAP@0.5 | RES mIoU |                                                Model                                                 |
-| :---------------: | :----------: | :---------: | :------: | :--------------------------------------------------------------------------------------------------: |
-| ScanRefer/EG-3DVG |    58.54     |    52.36    |  47.28   | [GoogleDrive](https://drive.google.com/file/d/1WcXEVCWgJL6Qfmbqg7ach_2RIUnfULNZ/view?usp=drive_link) |
+|  Dataset  | REC mAP@0.25 | REC mAP@0.5 | RES mIoU |                                                Model                                                 |
+| :-------: | :----------: | :---------: | :------: | :--------------------------------------------------------------------------------------------------: |
+| ScanRefer |    58.54     |    52.36    |  47.28   | [GoogleDrive](https://drive.google.com/file/d/1WcXEVCWgJL6Qfmbqg7ach_2RIUnfULNZ/view?usp=drive_link) |
 
 ## 4. Training
 
