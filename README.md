@@ -1,6 +1,6 @@
 # EG-3DVG: Expression and Geometry Aware Grounding Decoder for 3D Visual Grounding
 
-This repo contains the official PyTorch implementation for paper [Expression and Geometry Aware Grounding Decoder for 3D Visual Grounding].**(CVPR2026)**[paper](https://openaccess.thecvf.com/content/CVPR2026/html/Park_EG-3DVG_Expression_and_Geometry_Aware_Grounding_Decoder_for_3D_Visual_CVPR_2026_paper.html)
+This repo contains the official PyTorch implementation for paper [Expression and Geometry Aware Grounding Decoder for 3D Visual Grounding](https://openaccess.thecvf.com/content/CVPR2026/html/Park_EG-3DVG_Expression_and_Geometry_Aware_Grounding_Decoder_for_3D_Visual_CVPR_2026_paper.html).**(CVPR2026)**
 
 ## 1. Installation
 
