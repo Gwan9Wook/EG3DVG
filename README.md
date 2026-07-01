@@ -114,7 +114,7 @@ ScanNetv2
 ## 4. Training
 
 - Please specify the paths of `--data_root`, `--log_dir`, `--pp_checkpoint` in the `train_*.sh` script first.
-- Before Training and Evaluation, it's recommended to save pre-processed language features, in 'src/joint_det_dataset.py' line 135 ~ 140, which can save quite a lot of time.
+- Before Training and Evaluation, it's recommended to save pre-processed language features, in 'src/joint_det_dataset.py' line 135 ~ 153, which can save quite a lot of time.
 - For **ScanRefer** training
   ```
   sh scripts/train_scanrefer.sh
