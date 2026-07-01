@@ -32,8 +32,7 @@ def calc_pairwise_locs(obj_centers, point_center, eps=1e-10):
 
 class GMA(nn.Module):
     def __init__(
-        self, d_model, n_head, dropout=0.1, spatial_multihead=True, spatial_dim=5,
-        spatial_attn_fusion='cond', threshold=0.5,
+        self, d_model, n_head, dropout=0.1, spatial_dim=5, threshold=0.5,
     ):
         super().__init__()
         assert d_model % n_head == 0, 'd_model: %d, n_head: %d' %(d_model, n_head)
@@ -41,9 +40,7 @@ class GMA(nn.Module):
         self.n_head = n_head
         self.d_model = d_model
         self.d_per_head = d_model // n_head
-        self.spatial_multihead = spatial_multihead
         self.spatial_dim = spatial_dim
-        self.spatial_attn_fusion = spatial_attn_fusion
 
         self.w_qs = nn.Linear(d_model, d_model)
         self.w_ks = nn.Linear(d_model, d_model)
@@ -55,20 +52,14 @@ class GMA(nn.Module):
 
         self.threshold = threshold
 
-        self.spatial_n_head = n_head if spatial_multihead else 1
-        if self.spatial_attn_fusion in ['mul', 'bias', 'add']:
-            self.pairwise_loc_fc = nn.Linear(spatial_dim, self.spatial_n_head)
-        elif self.spatial_attn_fusion == 'ctx':
-            self.pairwise_loc_fc = nn.Linear(spatial_dim, d_model)
-        elif self.spatial_attn_fusion == 'cond':
-            self.lang_cond_fc = nn.Linear(d_model, d_model//4)
-            self.pairwise_loc_fc = nn.Sequential(
-                nn.Linear(5, (d_model//self.spatial_n_head)//4),
-                nn.ReLU(),
-                nn.Linear((d_model//self.spatial_n_head)//4, (d_model//self.spatial_n_head)//4),
-            )
-        else:
-            raise NotImplementedError('unsupported spatial_attn_fusion %s' % (self.spatial_attn_fusion))
+        self.n_head = n_head
+
+        self.lang_cond_fc = nn.Linear(d_model, d_model//4)
+        self.pairwise_loc_fc = nn.Sequential(
+            nn.Linear(5, (d_model//self.n_head)//4),
+            nn.ReLU(),
+            nn.Linear((d_model//self.n_head)//4, (d_model//self.n_head)//4),
+        )
 
     def hard_sigmoid(self, logits):
         y_soft = logits.sigmoid()
@@ -118,7 +109,7 @@ class GMA(nn.Module):
 
 class PECA(nn.Module):
     def __init__(
-            self, d_model, n_head, dropout=0.1, spatial_multihead=True, spatial_dim=5,
+            self, d_model, n_head, dropout=0.1, spatial_dim=5,
             spatial_attn_fusion='cond', threshold=0.5,
     ):
         super().__init__()
@@ -127,7 +118,6 @@ class PECA(nn.Module):
         self.n_head = n_head
         self.d_model = d_model
         self.d_per_head = d_model // n_head
-        self.spatial_multihead = spatial_multihead
         self.spatial_dim = spatial_dim
         self.spatial_attn_fusion = spatial_attn_fusion
 
