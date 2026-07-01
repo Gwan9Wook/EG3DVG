@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1d1d179-d65f-4bf3-bbbc-dc2b5248589c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MCLN_class.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/model_util_scannet.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/model_util_scannet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/encoder_decoder_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/encoder_decoder_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mcln.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ecg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mcln_attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ecg_attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/modules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pointnet2/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/pointnet2/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_nr3d_mcln_sp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_nr3d.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_scanrefer_mcln_sp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_scanrefer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_scanrefer_mcln_sp_single.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_sr3d_mcln_sp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_sr3d.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_nr3d_mcln_sp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_nr3d.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_scanrefer_mcln_sp.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_scanrefer_mcln_sp_single.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_scanrefer.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/train_sr3d_mcln_sp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_sr3d.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grounding_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/grounding_evaluator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/joint_det_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/joint_det_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1733557225.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1733557319.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1733557396.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1733812441.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737469617.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737469784.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737534363.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737534408.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737597035.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737597095.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737597641.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737598154.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737598785.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737599526.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737600064.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737634795.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737634883.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737634990.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737680850.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737680913.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737681274.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737681519.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737681849.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737681883.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737688324.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/train/events.out.tfevents.1737688961.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1733557225.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1733557319.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1733557396.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1733812441.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737469617.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737469784.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737534363.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737534408.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737597035.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737597095.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737597641.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737598154.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737598785.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737599526.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737600064.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737634795.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737634883.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737634990.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737680850.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737680913.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737681274.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737681519.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737681849.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737681883.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737688324.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorboard_output/tensorboard/val/events.out.tfevents.1737688961.user-B7129F83AV8E4HR-N" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_dist_mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_dist_mod.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="learnable_text_query" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2n0ZC4HV34Wju71kxXc6wWAE91z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Debug.executor": "Debug",
+    "Python.fsdfsdf.executor": "Debug",
+    "Python.infer.executor": "Debug",
+    "Python.plz.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "class__pred__box",
+    "last_opened_file_path": "/home/gwang/ECG_candidate_512",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="Debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="MCLN" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../anaconda3/envs/mcln/lib/python3.7/site-packages/torch/distributed/launch.py" />
+      <option name="PARAMETERS" value="--nproc_per_node 1 --master_port 3333 $PROJECT_DIR$/train_dist_mod.py --num_decoder_layers 6 --use_color --weight_decay 0.0005 --data_root $PROJECT_DIR$/../data/eda/ --val_freq 1 --batch_size 4 --save_freq 3 --print_freq 500 --lr_backbone=2e-3 --lr=2e-4 --dataset scanrefer --test_dataset scanrefer --detect_intermediate --use_soft_token_loss --use_contrastive_align --log_dir $PROJECT_DIR$/../data/eda/output/logs/eda --lr_decay_epochs 50 75 --pp_checkpoint $PROJECT_DIR$/../data/eda/gf_detector_l6o256.pth --butd --self_attend --augment_det --model MCLN --exp MCLN --joint_det" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fsdfsdf" type="PythonConfigurationType" factoryName="Python">
+      <module name="MCLN_class" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../anaconda3/envs/mcln/lib/python3.7/site-packages/torch/distributed/launch.py" />
+      <option name="PARAMETERS" value="--nproc_per_node 1 --master_port 3333 $PROJECT_DIR$/train_dist_mod.py --num_decoder_layers 6 --use_color --weight_decay 0.0005 --data_root $PROJECT_DIR$/../data/eda/ --val_freq 1 --batch_size 10 --save_freq 3 --print_freq 500 --lr_backbone=2e-3 --lr=2e-4 --dataset scanrefer --test_dataset scanrefer --detect_intermediate --use_soft_token_loss --use_contrastive_align --log_dir $PROJECT_DIR$/../data/eda/output/logs/eda --lr_decay_epochs 50 75 --pp_checkpoint $PROJECT_DIR$/../data/eda/gf_detector_l6o256.pth --butd --self_attend --augment_det --model ECG --exp ECG --joint_det" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="infer" type="PythonConfigurationType" factoryName="Python">
+      <module name="MCLN_class" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="mcln" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../anaconda3/envs/mcln/lib/python3.7/site-packages/torch/distributed/launch.py" />
+      <option name="PARAMETERS" value="--nproc_per_node 1 --master_port 3333 $PROJECT_DIR$/train_dist_mod.py --num_decoder_layers 6 --use_color --weight_decay 0.0005 --data_root $PROJECT_DIR$/../data/eda/ --val_freq 1 --batch_size 10 --save_freq 3 --print_freq 500 --lr_backbone=2e-3 --lr=2e-4 --dataset scanrefer --test_dataset scanrefer --detect_intermediate --use_soft_token_loss --use_contrastive_align --log_dir $PROJECT_DIR$/../data/eda/output/logs/eda --lr_decay_epochs 50 75 --butd --self_attend --augment_det --model ECG --exp ECG --joint_det --eval --checkpoint_path $PROJECT_DIR$/../data/eda/output/logs/scanrefer/ECG/1753965147/ckpt_epoch_1.pth" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python">
+      <module name="MCLN_class" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../anaconda3/envs/mcln/lib/python3.9/site-packages/torch/distributed/launch.py" />
+      <option name="PARAMETERS" value="--nproc_per_node 1 --master_port 3333 $PROJECT_DIR$/train_dist_mod.py --num_decoder_layers 6 --use_color --weight_decay 0.0005 --data_root $PROJECT_DIR$/../data/eda/ --val_freq 1 --batch_size 10 --save_freq 3 --print_freq 500 --lr_backbone=2e-3 --lr=2e-4 --dataset scanrefer --test_dataset scanrefer --detect_intermediate --use_soft_token_loss --use_contrastive_align --log_dir $PROJECT_DIR$/../data/eda/output/logs/eda --lr_decay_epochs 50 75 --pp_checkpoint $PROJECT_DIR$/../data/eda/gf_detector_l6o256.pth --butd --self_attend --augment_det --model ECG --exp ECG --joint_det" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Debug" />
+      <item itemvalue="Python.fsdfsdf" />
+      <item itemvalue="Python.infer" />
+      <item itemvalue="Python.train" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1d1d179-d65f-4bf3-bbbc-dc2b5248589c" name="Changes" comment="" />
+      <created>1728111822890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728111822890</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="learnable_text_query" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/backbone_module.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/backbone_module.py</url>
+          <line>338</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/backbone_module.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/backbone_module.py</url>
+          <line>435</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/encoder_decoder_layers.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/grounding_evaluator.py</url>
+          <line>611</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/losses.py</url>
+          <line>704</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/losses.py</url>
+          <line>563</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/encoder_decoder_layers.py</url>
+          <line>759</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
